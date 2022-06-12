@@ -1,6 +1,6 @@
 # FIRST-CLASS
 
-## topic
+## TOPIC
 - LED blink
 ### CONTENTS
 - VCC, VDD, and 5V mean the same thing. So the red line is used for 5V, vcc, vdd
