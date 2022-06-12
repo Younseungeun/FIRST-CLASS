@@ -15,13 +15,14 @@
 - Resistance 330 ohms: connect to digital pin number 13
 - LED's shorter leg: connect to GND
 ### CODE
-1. void setup() {
-2. pinMode(LED_BUILTIN, OUTPUT); // initialize digital pin LED_BUILTIN as an output.
-3. }
-4. // void loop means that function runs over and over again forever
-5. void loop() {
-6. digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-7. delay(1000);                       // wait for a second(1000 mMillisecond)
-8. digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-9. delay(1000);                       // wait for a second
-10. }
+1. int LED=13; // the setup function runs once when you press reset or power the board
+2. void setup() {
+3. pinMode(LED_BUILTIN, OUTPUT); // initialize digital pin LED_BUILTIN as an output.
+4. }
+5. // void loop means that function runs over and over again forever
+6. void loop() {
+7. digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+8. delay(1000);                       // wait for a second(1000 mMillisecond)
+9. digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+10. delay(1000);                       // wait for a second
+11. }
