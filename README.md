@@ -15,8 +15,8 @@
 - Resistance 330 ohms: connect to digital pin number 13
 - LED's shorter leg: connect to GND
 ### CODE
-- void setup() {
-- pinMode(LED_BUILTIN, OUTPUT); // initialize digital pin LED_BUILTIN as an output.
+1. void setup() {
+2. pinMode(LED_BUILTIN, OUTPUT); // initialize digital pin LED_BUILTIN as an output.
 - }
 - // void loop means that function runs over and over again forever
 - void loop() {
